@@ -142,4 +142,19 @@ const unknown1 = 'foo';
 console.log(typeof unknown1); // Output: string
 ```
 
-z
+# Declaracoes Condicionais
+
+### If Declaracao
+
+Se o parametro acontecer, faca o bloco de instrucao
+
+```jsx
+if (true) {
+  console.log('This message will print!'); 
+}
+```
+
+- A `if()`*bloco de códigoinstrução de bloco*`{}` palavra-chave seguida por um conjunto de parênteses que é seguido por um ou, indicado por um conjunto de chaves.
+- Dentro dos parênteses `()truefalse`, é fornecida uma condição avaliada como ou.
+- Se a condição for avaliada como `true{}`*será executado*, o código dentro das chaves será executado ou.
+- Se a condição for avaliada como `false`, o bloco não será executado.
