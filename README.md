@@ -1,18 +1,18 @@
 # AprendendoJs
- 
+
 # Introducao
 
 Para imprimir valores no console
 
 ```jsx
-console.log('O que sera impresso');
+console.log("O que sera impresso");
 ```
 
 Sempre utilize o ponto e virgula depois do codigo, por mais que seja necessario na maioria das vezes, pegar esse costume ajuda em funcoes que precisam.
 
 ### Comentarios
 
-Existem duas formas de comentarios em JS, // e /* */
+Existem duas formas de comentarios em JS, // e /\* \*/
 
 ```jsx
 // serve para comentarios em 1 linha
@@ -41,7 +41,7 @@ Quando + é usado entre duas strings, ele anexa uma a outra
 Todos os tipos de dados tem propriedades especificas. Ex: toda string tem length que armazena o numero de caracteres nessa string. Voce pode anexar essa propriedade a string usando ‘.’
 
 ```jsx
-console.log('Hello'.length);
+console.log("Hello".length);
 ```
 
 ### Metodos
@@ -53,7 +53,7 @@ Metodos sao ACOES que podemos executar. Os tipos de dados tem acesso a metodos e
 - abrindo e fechando parênteses
 
 ```jsx
-'example string'.methodName()
+"example string".methodName();
 ```
 
 ### Objetos Imbutidos
@@ -61,8 +61,8 @@ Metodos sao ACOES que podemos executar. Os tipos de dados tem acesso a metodos e
 Gerar numero aleatorio com um objeto que tem metodos, so ousar math.random(), para decidir ate qnt, basta multiplicas pelo numero maximo
 
 ```jsx
-console.log(Math.random()*100);
-console.log(Math.floor(Math.random()*100));
+console.log(Math.random() * 100);
+console.log(Math.floor(Math.random() * 100));
 console.log(Math.ceil(43.8));
 console.log(Number.isInteger(2017));
 ```
@@ -79,12 +79,12 @@ A const sinaliza que a variavel é constante, ou seja, nao muda. Devem receber u
 
 ### **Operadores de atribuicao matematica**
 
-Podemos utilizar operadores de atribuicao matematica em variaveis, 
+Podemos utilizar operadores de atribuicao matematica em variaveis,
 
 ```jsx
 let w = 4;
 w = w + 1;
- 
+
 console.log(w); // Output: 5
 ```
 
@@ -93,7 +93,7 @@ Outra maneira é usar operadore de atribuicao matematica w integrados como +=
 ```jsx
 let w = 4;
 w += 1;
- 
+
 console.log(w); // Output: 5
 ```
 
@@ -116,8 +116,8 @@ console.log(a); // Output: 11
 o operador + pode ser usado para combinar dois valores.
 
 ```jsx
-let myPet = 'armadillo';
-console.log('I own a pet ' + myPet + '.'); 
+let myPet = "armadillo";
+console.log("I own a pet " + myPet + ".");
 // Output: 'I own a pet armadillo.'
 ```
 
@@ -128,7 +128,7 @@ Podemos inserir ou interpolar variaveis em strings usando literais de modelo ${ 
 - deve ser envolvidos por acento grave ``.
 
 ```jsx
-const myPet = 'armadillo';
+const myPet = "armadillo";
 console.log(`I own a pet ${myPet}.`);
 // Output: I own a pet armadillo.
 ```
@@ -138,7 +138,7 @@ console.log(`I own a pet ${myPet}.`);
 comando typeof verifica o tipo de operador
 
 ```jsx
-const unknown1 = 'foo';
+const unknown1 = "foo";
 console.log(typeof unknown1); // Output: string
 ```
 
@@ -150,11 +150,27 @@ Se o parametro acontecer, faca o bloco de instrucao
 
 ```jsx
 if (true) {
-  console.log('This message will print!'); 
+  console.log("This message will print!");
 }
 ```
 
-- A `if()`*bloco de códigoinstrução de bloco*`{}` palavra-chave seguida por um conjunto de parênteses que é seguido por um ou, indicado por um conjunto de chaves.
+- A `if()`_bloco de códigoinstrução de bloco_`{}` palavra-chave seguida por um conjunto de parênteses que é seguido por um ou, indicado por um conjunto de chaves.
 - Dentro dos parênteses `()truefalse`, é fornecida uma condição avaliada como ou.
-- Se a condição for avaliada como `true{}`*será executado*, o código dentro das chaves será executado ou.
+- Se a condição for avaliada como `true{}`_será executado_, o código dentro das chaves será executado ou.
 - Se a condição for avaliada como `false`, o bloco não será executado.
+
+### If…Else
+
+Complemento do If, o Else é se caso a condicao no if nao bater, executa Else
+
+```jsx
+if (false) {
+  console.log("The code in this block will not run.");
+} else {
+  console.log("But the code in this block will!");
+}
+```
+
+- Usa a `elseif` palavra-chave após o bloco de código de uma instrução.
+- Tem um bloco de código que é envolvido por um conjunto de chaves `{}`.
+- O código dentro do `elseiffalse`bloco de código da instrução será executado quando a condição da instrução for avaliada como.
