@@ -32,32 +32,41 @@ switch(randomNumber){
 }
 console.log(eightball);
 
-randomNumber = Math.floor(Math.random() * 8);
-eightball = '';
+let randomNumber2 = Math.floor(Math.random() * 8);
+var eightball2 = '';
 
-if(randomNumber === 0){
-  eightball = 'It is certain';
+if(randomNumber2 == 0){
+  eightball2 = 'It is certain';
+  console.log(eightball2);
   return;
-}else if(randomNumber === 1){
-  eightball = 'It is decidedly so';
+}else if(randomNumber2 == 1){
+  eightball2 = 'It is decidedly so';
+  console.log(eightball2);
   return;
-}else if(randomNumber === 2){
-  eightball = 'Reply hazy try again';
+}else if(randomNumber2 == 2){
+  eightball2 = 'Reply hazy try again';
+  console.log(eightball2);
   return;
-}else if(randomNumber === 3){
-  eightball = 'Cannot predict now';
+}else if(randomNumber2 == 3){
+  eightball2 = 'Cannot predict now';
+  console.log(eightball2);
   return;
-}else if(randomNumber === 4){
-  eightball = 'Do not count on it';
+}else if(randomNumber2 == 4){
+  eightball2 = 'Do not count on it';
+  console.log(eightball2);
   return;
-}else if(randomNumber === 5){
-  eightball = 'My sources say no';
+}else if(randomNumber2 == 5){
+  eightball2 = 'My sources say no';
+  console.log(eightball2);
   return;
-}else if(randomNumber === 6){
-  eightball = 'Outlook not so good';
+}else if(randomNumber2 == 6){
+  eightball2 = 'Outlook not so good';
+  console.log(eightball2);
   return;
-}else if(randomNumber === 7){
-  eightball = 'Signs point to yes';
+}else if(randomNumber2 == 7){
+  eightball2 = 'Signs point to yes';
+  console.log(eightball2);
   return;
 }
-console.log(eightball);
+
+console.log(eightball2);
